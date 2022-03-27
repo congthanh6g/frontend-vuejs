@@ -4,7 +4,8 @@ export default function authHeader() {
 
         return {
             Authorization :  'Bearer ' + user.token,
-            
+            'Content-Type': 'application/json;charset=UTF-8',
+            "Access-Control-Allow-Origin": "*"
         };
     }
     else {
