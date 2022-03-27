@@ -5,32 +5,8 @@
 <br />
 <br />
 <br />
-  <!-- <div class="row">
-
-  <div class="column">
-    <div class="card">
-      <router-link to="/user">
-      <h3>User Management</h3>
-      </router-link>
-      <p>Total User</p>
-      {{totalUser}}
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <router-link to="/movie">
-      <h3>Movie Management</h3>
-      </router-link>
-      <p>Total Movie</p>
-      {{totalMovie}}
-    </div>
-  </div>
-
-</div> -->
 <div class="row">
 
-                        <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
@@ -208,7 +184,7 @@
 
 <script>
 import axios from 'axios'
-import authHeader from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/auth-header';
+import authHeader from '../services/auth-header';
 export default {
   name: 'Home',
   data() {
