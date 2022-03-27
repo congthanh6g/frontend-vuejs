@@ -7,7 +7,9 @@ class AuthService {
                     .post(API_URL + 'signin' , {
                         username : user.username ,
                         password : user.password
-                    })
+                    } , { headers : {
+                        "Access-Control-Allow-Origin": "*"     
+                    } })
                     .then(response => {
                         if(response.data.token) {
                             localStorage.setItem('user' , JSON.stringify(response.data));
