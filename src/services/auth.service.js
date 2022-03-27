@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = 'https://heroku-vuefrontend.herokuapp.com/api/auth/';
+const API_URL = 'https://heroku-springbackend.herokuapp.com/api/auth/';
 
 class AuthService {
     login(user) {
