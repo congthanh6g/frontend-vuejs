@@ -38,7 +38,7 @@
                         <th scope="col" >{{director.id}}</th>
                         <th scope="col" >{{director.name}}</th>
                         <th scope="col" >{{director.description}}</th>
-                        <th scope="col" class = "crop"><a :href="'http://localhost:8080/' + director.avt"><img :src =" 'http://localhost:8080/' + director.avt"/></a></th>
+                        <th scope="col" class = "crop"><img :src =" 'https://heroku-springbackend.herokuapp.com/' + director.avt"/></th>
                         <th scope="col"><router-link :to="'/director/' + director.id"><font-awesome-icon :icon = "['fas' , 'user-edit']" /></router-link></th>
                         <th scope="col"><font-awesome-icon :icon = "['fas' , 'trash']"   @click="deleteDirector(director.id)" /></th>
             </tr>
@@ -99,7 +99,7 @@
                         <th scope="col" >{{director.id}}</th>
                         <th scope="col" >{{director.name}}</th>
                         <th scope="col" >{{director.description}}</th>
-                        <th scope="col" class = "crop"><a :href="'http://localhost:8080/' + director.avt"><img :src =" 'http://localhost:8080/' + director.avt"/></a></th>
+                        <th scope="col" class = "crop"><img :src =" 'https://heroku-springbackend.herokuapp.com/' + director.avt"/></th>
                         <th scope="col"><router-link :to="'/director/' + director.id"><font-awesome-icon :icon = "['fas' , 'user-edit']" /></router-link></th>
                         <th scope="col"><font-awesome-icon :icon = "['fas' , 'exchange-alt']" @click="updateStateChange(director.id)" /></th>
             </tr>

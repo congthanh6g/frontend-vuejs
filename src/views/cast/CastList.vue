@@ -38,7 +38,7 @@
                         <th scope="col" >{{cast.id}}</th>
                         <th scope="col" >{{cast.name}}</th>
                         <th scope="col" >{{cast.description}}</th>
-                        <th scope="col" class = "crop"><a :href="'http://localhost:8080/' + cast.avt"><img :src =" 'http://localhost:8080/' + cast.avt"/></a></th>
+                        <th scope="col" class = "crop"><img :src =" 'https://heroku-springbackend.herokuapp.com/' + cast.avt"/></th>
                         <th scope="col"><router-link :to="'/cast/' + cast.id"><font-awesome-icon :icon = "['fas' , 'user-edit']" /></router-link></th>
                         <th scope="col"><font-awesome-icon :icon = "['fas' , 'trash']"   @click="deleteCast(cast.id)" /></th>
             </tr>
@@ -100,7 +100,7 @@
                         <th scope="col" >{{cast.id}}</th>
                         <th scope="col" >{{cast.name}}</th>
                         <th scope="col" >{{cast.description}}</th>
-                        <th scope="col" class = "crop"><a :href="'http://localhost:8080/' + cast.avt"><img :src =" 'http://localhost:8080/' + cast.avt"/></a></th>
+                        <th scope="col" class = "crop"><img :src =" 'https://heroku-springbackend.herokuapp.com/' + cast.avt"/></th>
                         <th scope="col"><router-link :to="'/cast/' + cast.id"><font-awesome-icon :icon = "['fas' , 'user-edit']" /></router-link></th>
                         <th scope="col"><font-awesome-icon :icon = "['fas' , 'exchange-alt']" @click="updateStateChange(cast.id)" /></th>
             </tr>

@@ -86,7 +86,8 @@ export default {
         var json = JSON.stringify(object);
         formData.append('jsonObject' , json)
         axios.post('https://heroku-springbackend.herokuapp.com/api/v1/category/add' , formData , { headers : {
-            Authorization : 'Bearer ' + user.token
+            Authorization : 'Bearer ' + user.token,
+            'Content-Type': `multipart/form-data; boundary=${formData._boundary}`,
         } } , {
         }).then((res) => {
         console.log(res);
