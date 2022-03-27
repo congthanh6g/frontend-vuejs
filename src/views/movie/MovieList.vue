@@ -190,7 +190,7 @@
 </template>
 
 <script>
-import MovieService from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/movie/movie.service'
+import MovieService from '../../services/movie/movie.service'
 import "@ocrv/vue-tailwind-pagination/dist/style.css"
 import VueTailwindPagination from "@ocrv/vue-tailwind-pagination"
 export default {

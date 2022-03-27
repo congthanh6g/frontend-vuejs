@@ -148,9 +148,9 @@
 
 <script>
 import axios from 'axios'
-import authHeader from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/auth-header';
+import authHeader from '../../services/auth-header';
 import Multiselect from '@suadelabs/vue3-multiselect';
-import MovieService from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/movie/movie.service'
+import MovieService from '../../services/movie/movie.service'
 export default {
     name : "update-movie",
     components: { Multiselect },

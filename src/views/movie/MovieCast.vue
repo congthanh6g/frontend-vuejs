@@ -106,10 +106,10 @@
 </template>
 
 <script>
-import MovieService from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/movie/movie.service'
+import MovieService from '../../services/movie/movie.service'
 import "@ocrv/vue-tailwind-pagination/dist/style.css"
 import VueTailwindPagination from "@ocrv/vue-tailwind-pagination"
-import authHeader from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/auth-header';
+import authHeader from '../../services/auth-header'
 import axios from 'axios'
 import Multiselect from '@suadelabs/vue3-multiselect';
 export default {

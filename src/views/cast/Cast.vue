@@ -73,7 +73,8 @@
 </template>
 
 <script>
-import CastService from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/cast/cast.service'
+//import CastService from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/cast/cast.service'
+import CastService from "../../services/cast/cast.service"
 export default {
     name: "cast",
     data() {

@@ -131,7 +131,7 @@
 </template>
 
 <script>
-import UserService from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/user/user.service'
+import UserService from '../services/user/user.service'
 import "@ocrv/vue-tailwind-pagination/dist/style.css"
 import VueTailwindPagination from "@ocrv/vue-tailwind-pagination"
 export default {

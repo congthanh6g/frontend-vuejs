@@ -128,7 +128,7 @@
 </template>
 
 <script>
-import CastService from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/cast/cast.service'
+import CastService from "../../services/cast/cast.service"
 import "@ocrv/vue-tailwind-pagination/dist/style.css"
 import VueTailwindPagination from "@ocrv/vue-tailwind-pagination"
 export default {

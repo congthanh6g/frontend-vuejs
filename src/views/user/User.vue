@@ -110,7 +110,7 @@
 </template>
 
 <script>
-import UserService from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/user/user.service'
+import UserService from '../../services/user/user.service'
 export default {
     name: "cast",
     data() {

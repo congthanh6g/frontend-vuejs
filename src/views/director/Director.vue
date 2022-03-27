@@ -74,7 +74,7 @@
 </template>
 
 <script>
-import DirectorService from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/director/director.service'
+import DirectorService from '../../services/director/director.service'
 export default {
     name: "director",
     data() {

@@ -131,7 +131,7 @@
 </template>
 
 <script>
-import CategoryService from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/category/category.service'
+import CategoryService from '../../services/category/category.service'
 import "@ocrv/vue-tailwind-pagination/dist/style.css"
 import VueTailwindPagination from "@ocrv/vue-tailwind-pagination"
 export default {

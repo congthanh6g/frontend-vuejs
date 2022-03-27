@@ -64,8 +64,8 @@
 </template>
 
 <script>
-import UserService from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/user/user.service'
-import authHeader from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/auth-header'
+import UserService from '../../services/user/user.service'
+import authHeader from '../../services/auth-header'
 export default {
     name : "UserList",
     data() {

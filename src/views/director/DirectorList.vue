@@ -125,7 +125,7 @@
 </template>
 
 <script>
-import DirectorService from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/director/director.service'
+import DirectorService from '../../services/director/director.service'
 import "@ocrv/vue-tailwind-pagination/dist/style.css"
 import VueTailwindPagination from "@ocrv/vue-tailwind-pagination"
 export default {

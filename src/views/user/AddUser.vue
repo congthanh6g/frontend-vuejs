@@ -71,7 +71,7 @@
 
 <script>
 import axios from 'axios'
-import authHeader from '/VS_CODE_PROJECTS/VUEJS/vuesidebar/src/services/auth-header'
+import authHeader from '../../services/auth-header'
 
 export default {
     name : "add-user",
